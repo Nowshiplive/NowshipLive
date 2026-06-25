@@ -1,16 +1,17 @@
-## Hi there 👋
+# NowShip Live
 
-<!--
-**Nowshiplive/NowshipLive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+NowShip Live is a custom CRM and business dashboard for NowShip.
 
-Here are some ideas to get you started:
+## First version includes
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Dashboard
+- Company list
+- Add company form
+- Supabase database connection
+
+## Setup
+
+1. Copy `.env.local.example` to `.env.local`
+2. Add your Supabase project URL and anon key
+3. Run `npm install`
+4. Run `npm run dev`
